@@ -1,0 +1,63 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div.divLon{
+	width: 926px;
+	height: auto;
+}
+div.tieuDe{
+	border-bottom: 4px solid red;
+	height: auto;
+	margin-bottom: 30px;
+}
+h2{
+	font-family: tohoma;
+	color: orange;
+	background-color: white;
+	padding: 0px 20px;
+	display: inline-block;
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+div.divNho{
+	width: 926px;
+	height: auto;
+}
+div.divNhoNhat{
+	width: 300px;
+	height: 400px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+	border: 1px solid red;
+}
+div.divNhoNhat:nth-child(3n){
+	margin-right: 0px;
+}
+a img{
+	width: 300px;
+	height: 250px;
+	display: block;
+	margin-bottom: 10px;
+}
+a img:hover{
+	opacity: 0.9;
+}
+a.tieuDeNho{
+	text-decoration: none;
+	color: black;
+	font-family: tahoma;
+	display: block;
+	margin-bottom: 10px;
+}
+p{
+	font-family: agoe ui light;
+	font-size: 20px;
+	color: #414141;
+	background-image: url(icon.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding-left: 30px;
+}
